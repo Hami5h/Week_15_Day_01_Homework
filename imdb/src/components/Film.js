@@ -8,8 +8,8 @@ class Film extends React.Component {
   render() {
     return(
       <div classname="film">
-        <h5>{this.props.title}</h5>
-        <a href={this.props.url}>Showtimes</a>
+        <h5><img src="add.png"></img>&nbsp;&nbsp;&nbsp;&nbsp;{this.props.title} &nbsp;&nbsp;&nbsp;&nbsp;<a href={this.props.url}>Showtimes</a></h5>
+
       </div>
     );
   }

@@ -18,7 +18,16 @@ class FilmBox extends React.Component {
   render() {
     return(
       <div className="film-box">
+        <h1>Now Playing (UK Box Office)</h1>
         <FilmList films={this.state.films}/>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <hr></hr>
+        <br></br>
+        <br></br>
+        &nbsp;&nbsp;<a href='http://www.imdb.com/chart/boxoffice?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=2417984102&pf_rd_r=0ADAHXY92BMW8RYJMGDH&pf_rd_s=right-6&pf_rd_t=15061&pf_rd_i=homepage&ref_=hm_cht_hd'>All of this Weeks Showtimes</a>
       </div>
     );
   }
